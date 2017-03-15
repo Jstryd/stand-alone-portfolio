@@ -1,6 +1,10 @@
 // YOUR SCRIPTS GO HERE
 
-$("figure").lightGallery({
+// Activate Gallery
+$('.gallery').lightGallery({
     selector: 'a',
-    mode: 'lg-tube'
+    thumbnail: true,
+    download: false,
+    mode: 'lg-tube',
+    hideBarsDelay: 3000,
 });

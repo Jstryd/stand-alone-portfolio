@@ -1,9 +1,6 @@
 /********************
 YOUR STYLES
 *******************/
-@import 'normalize';
-@import 'lightgallery.min';
-@import 'lg-transitions.min';
 
 
 /* Header */
@@ -11,7 +8,8 @@ header {
     font-size: 2em;
     display: flex;
     justify-content: center;
-    background: #ded1c2
+    background: #ded1c2;
+    font-family: 'Helvetica', sans-serif;
 }
 body {
     font-family: 'Helvetica', sans-serif;
@@ -51,6 +49,9 @@ figure img {
     font-size: .5em;
 }
 
+.footer{
+    font-family: 'Helvetica', sans-serif;
+}
 
 /********************
 MEDIA QUERIES
@@ -77,8 +78,8 @@ MEDIA QUERIES
    /*    background: green;
   } */
     
-    figure {
-            width: 50%;
+   /* figure {
+            width: 50%; */
     }
 
 }
@@ -93,8 +94,8 @@ MEDIA QUERIES
  
   /* Main Container */
  main {
-    margin: 0 auto;
-    width: 95%;
+   /* margin: 0 auto;
+    width: 95%; */
  }    
     
     
