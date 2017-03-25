@@ -8,13 +8,13 @@ header {
     font-size: 2em;
     display: flex;
     justify-content: center;
-    background: #ded1c2;
+    background: lightblue;
     font-family: 'Helvetica', sans-serif;
 }
 body {
     font-family: 'Helvetica', sans-serif;
     
-    background: #a6a6a6;
+    background: #5ebad8;
 }
 /* Gallery Styling */
 /* Just for Class*/
@@ -26,17 +26,21 @@ figure img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-top: 15px;
 }
 
-    figure {
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  figure {
+      background: #ffeb00;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 3em;
+      width: 25%;
+    max-width: 100px;
 }
 
 
 .lg-backdrop {
-    background: magenta;
+    background: #d19f50;
 }
 
 .lg-image {
